@@ -6,6 +6,7 @@ print('Seu nome em maiúsculas é {}'.format(nome.upper()))
 print('Seu nome em minúsculas é {}'.format(nome.lower()))
 # Quantas letras ao todo (sem considerar espaços)
 print('Seu nome tem {} letras'.format(len(nome) - nome.count(' ')))
+print(f'Seu nome tem {nome} letras')
 # Quantas letras tem o primeiro nome
 separa = nome.split()
 print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
