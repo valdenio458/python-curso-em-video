@@ -1,5 +1,5 @@
-print('{:=^40}'. format(' LOJAS GUANABARA'))
-preço = float(input('Qual o preço do produto?R$'))
+print('{:=^40}'. format(' LOJAS GUANABARA '))
+preço = float(input('Qual o preço do produto? 1500R$'))
 print('''FORMAS DE PAGAMENTO
 [1] à vista dinheiro ou cheque
 [2] à vista no cartão
@@ -18,7 +18,7 @@ elif opção == 4:
     total = preço + (preço * .20)
     totparc = int(input('Quantas parcelas?'))
     parcela = total / totparc
-    print('Sua compra será parcelada em {}x deR${:.2f} COM JUROS'.format(totparc,parcela))
+    print('Sua compra será parcelada em {}x de R${:.2f} COM JUROS'.format(totparc,parcela))
 else:
     total = preço
     print('\033[31m OPÇÃO INVÁLIDA \033[m de pagamento. Tente novamente'.format(total))
