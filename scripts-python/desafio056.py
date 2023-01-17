@@ -19,6 +19,6 @@ for p in range(1, 5):
       nome_mais_velho = nome
     if sexo in 'Ff' and idade < 20: 
       tot_mulher20 += 1
-print(f'A média de idade do grupo é de {media_idade} anos.')
+print(f'A média de idade do grupo é de {media_idade:.2f} anos.')
 print(f'O homem mais velho tem {maior_idade_homem} anos e se chama {nome_mais_velho}.')
 print(f'Foram encontradas {tot_mulher20} mulheres com menos de 20 anos.')
