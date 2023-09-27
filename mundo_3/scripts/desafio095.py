@@ -22,6 +22,7 @@ while True:
         print('ERRO! Responda apenas S ou N. ')
     if res == 'N':
         break
+
 # Mostra os resultados:
 print('-=' * 30)
 # Cabeçalho:
