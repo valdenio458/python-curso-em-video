@@ -20,9 +20,9 @@ def sorteia():
 def somarPar():
     sorteia()
     soma = 0
-    for c in numeros:
-        if c % 2 == 0:
-            soma += c
+    for num in numeros:
+        if num % 2 == 0:
+            soma += num
     print(f'Somando os valores pares de {numeros}, temos {soma}.')
 
 
