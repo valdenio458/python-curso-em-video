@@ -5,10 +5,10 @@ leiaFloat() com a mesma funcionalidade.
 """
 
 
-def leiaInt(msg):
+def leiaInt(num):
     while True:
         try:
-            n1 = int(input(msg))
+            n1 = int(input(num))
         except (ValueError, TypeError):
             print("\033[31mERRO!Digite um número inteiro válido!\033[m")
             continue
@@ -19,10 +19,10 @@ def leiaInt(msg):
             return n1
 
 
-def leiaFloat(msg):
+def leiaFloat(num):
     while True:
         try:
-            n2 = float(input(msg))
+            n2 = float(input(num))
         except (ValueError, TypeError):
             print("\033[31mERRO!Digite um número inteiro válido!\033[m")
             continue
