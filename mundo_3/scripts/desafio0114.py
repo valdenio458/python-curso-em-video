@@ -8,5 +8,5 @@ try:
 except URLError:
     print("O site não está acessível no momento!")
 else:
-    print("Acesso ao site com sucesso")
+    print("Acesso ao site com sucesso!")
 # print(site.read)
