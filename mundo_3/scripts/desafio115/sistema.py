@@ -1,8 +1,8 @@
-from lib.interface import menu, cabecalho, leiaInt
+from lib.interface import leiaInt, menu, cabecalho
 from lib.arquivo import arquivoExiste, criarArquivo, lerArquivo, cadastrar
 from time import sleep
 
-arq = 'cursopython.txt'
+arq = "cursopython.txt"
 if not arquivoExiste(arq):
     criarArquivo(arq)
 
@@ -13,9 +13,9 @@ while True:
         lerArquivo(arq)
     elif resp == 2:
         # Opção de cadastrar uma nova pessoa
-        cabecalho('NOVO CADASTRO')
-        nome = str(input('Nome: '))
-        idade = leiaInt('Idade: ')
+        cabecalho("NOVO CADASTRO")
+        nome = str(input("Nome: "))
+        idade = leiaInt("Idade: ")
         cadastrar(arq, nome, idade)
     elif resp == 3:
         cabecalho("Saindo do sistema...")
